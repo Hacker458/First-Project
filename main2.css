@@ -1,0 +1,992 @@
+
+body
+{
+	color: white;
+	background: black;
+	text-shadow: 3px 3px 5px black;
+}
+#General
+{
+	background-image: url("Фото/Фон2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#Head
+{
+	top: 12%;
+	height: 67%;
+	width: 99%;
+}
+#header
+{
+	height: 8%;
+	width: 100%;
+}
+#header a img
+{
+	border-radius: 100px;
+	height: 8%;
+	width: 10%;
+	max-height: 8%;
+	max-width: 10%;
+}
+.Logo
+{
+	transition: 0.7s ease;
+}
+.Logo:hover
+{
+	opacity: 0.7;
+}
+#main
+{
+	top: 5%;
+	width: 100%;
+
+}
+#main h3
+{
+	text-align: center;
+	font-size: 250%;
+}
+#Name
+{
+	width: 100%;
+}
+
+#Name h1 
+{
+	text-align: center;
+	font-size: 400%;
+}
+#Contact
+{
+	top: 120%
+	width: 100%;
+}
+#Contact img:hover
+{
+	opacity: 0.5;
+}
+#Contact h2
+{
+	font-size: 350%
+}
+#Contact h2:hover
+{
+	color: red;
+	cursor: pointer;
+}
+
+#Social
+{
+	top: 105%;
+	padding: 10%
+}
+a[class="Social"] img
+{
+	transition: 0.1s ease;
+}
+tr
+{
+	text-align: center;
+}
+
+#Services
+{	
+	width: 100%;
+}
+#BG1
+{
+	background: url("Фото/3.jpg") no-repeat;
+	background-size: 100%;
+	text-shadow: 3px 10px 5px black;
+	transition: 0.6s ease;
+	padding-bottom: 5%;
+	height: 1000px;
+}
+#BG1 h1
+{
+	margin: 25px auto;
+	padding-top: 10%;
+	text-align: center;
+	font-family: "Bitter", sans-serif;
+	font-size: 445%;
+	width: 70%;
+}
+#BG1 h1:hover
+{
+	color: red;
+	cursor: pointer;
+	opacity: 0.7;
+}
+#BG1 li
+{
+	font-size: 400%;
+	margin: 5% 5% 0% 10%;
+}
+#BG1 p 
+{
+	width: 60%;
+	cursor: pointer;
+}
+#BG1 p:hover
+{
+	color: lime;
+	opacity: 0.8;
+}
+
+@media all and (min-width: 380px) and (max-width: 499px)
+{
+	#BG1
+	{
+		font-size: 28%;
+		height: 300px;
+	}
+}
+@media all and (min-width: 500px) and (max-width: 599px)
+{
+	#BG1
+	{
+		font-size: 32%;
+		height: 340px;
+	}
+}
+@media all and (min-width: 600px)
+{
+	#BG1
+	{
+		font-size: 40%;
+		height: 450px;
+	}
+}
+@media all and (min-width: 800px) and (max-width: 850px)
+{
+	#BG1
+	{
+		font-size: 45%;
+		height: 470px;
+	}
+}
+@media all and (min-width: 855px) and (max-width: 900px)
+{
+	#BG1
+	{
+		font-size: 50%;
+		height: 500px;
+	}
+}
+@media all and (min-width: 905px) and (max-width: 1000px)
+{
+	#BG1
+	{
+		font-size: 65%;
+		height: 650px;
+	}
+}
+@media all and (min-width: 1000px) and (max-width: 1100px)
+{
+	#BG1
+	{
+		font-size: 70%;
+		height: 700px;
+
+	}
+}
+@media all and (min-width: 1105px) and (max-width: 1300px)
+{
+	#BG1
+	{
+		font-size: 80%;
+		height: 800px;
+
+	}
+}
+@media all and (min-width: 1301px) and (max-width: 1500px)
+{
+	#BG1
+	{
+		font-size: 85%;
+		height: 900px;
+
+	}
+}
+@media all and (min-width: 1501px) and (max-width: 1600px)
+{
+	#BG1
+	{
+		font-size: 90%;
+		height: 1000px;
+	}
+}
+@media all and (min-width: 1601px) and (max-width: 1900px)
+{
+	#BG1
+	{
+		font-size: 100%;
+		height: 1230px;
+
+	}
+}
+@media all and (min-width: 1901px) and (max-width: 2100px)
+{
+	#BG1
+	{
+		font-size: 130%;
+		height: 1330px;
+
+	}
+}
+@media all and (min-width: 2101px) and (max-width: 2500px)
+{
+	#BG1
+	{
+		font-size: 150%;
+		height: 1500px;
+
+	}
+}
+
+#Description
+{
+	margin-top: 2%;
+	width: 100%;
+	height: 250px;
+	background: url("Фото/Шар.jpg") no-repeat;
+	background-size: 100%;
+	font-family: "Bitter", sans-serif;
+}
+
+#Description table
+{
+	width: 98%;
+}
+
+#Description h4
+{
+	font-size: 70%;
+}
+#Description h3
+{
+	font-size: 0.5em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+
+
+@media all and (min-width: 500px) and (max-width: 550px)
+{
+
+#Description
+{
+	height: 270px;
+}
+#Description h4
+{
+	font-size: 75%;
+}
+#Description h3
+{
+	font-size: 0.65em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 551px) and (max-width: 600px)
+{
+
+#Description
+{
+	height: 300px;
+}
+#Description h4
+{
+	font-size: 90%;
+}
+#Description h3
+{
+	font-size: 0.71em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 601px) and (max-width: 650px)
+{
+
+#Description
+{
+	height: 320px;
+}
+#Description h4
+{
+	font-size: 100%;
+}
+#Description h3
+{
+	font-size: 0.78em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 651px) and (max-width: 700px)
+{
+
+#Description
+{
+	height: 390px;
+}
+#Description h4
+{
+	font-size: 110%;
+}
+#Description h3
+{
+	font-size: 0.9em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 701px) and (max-width: 750px)
+{
+
+#Description
+{
+	height: 420px;
+}
+#Description h4
+{
+	font-size: 110%;
+}
+#Description h3
+{
+	font-size: 0.97em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 751px) and (max-width: 800px)
+{
+
+#Description
+{
+	height: 450px;
+}
+#Description h4
+{
+	font-size: 115%;
+}
+#Description h3
+{
+	font-size: 1em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 801px) and (max-width: 850px)
+{
+
+#Description
+{
+	height: 490px;
+}
+#Description h4
+{
+	font-size: 120%;
+}
+#Description h3
+{
+	font-size: 1.14em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 851px) and (max-width: 900px)
+{
+
+#Description
+{
+	height: 515px;
+}
+#Description h4
+{
+	font-size: 125%;
+}
+#Description h3
+{
+	font-size: 1.23em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 901px) and (max-width: 950px)
+{
+
+#Description
+{
+	height: 550px;
+}
+#Description h4
+{
+	font-size: 130%;
+}
+#Description h3
+{
+	font-size: 1.31em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 951px) and (max-width: 1000px)
+{
+
+#Description
+{
+	height: 580px;
+}
+#Description h4
+{
+	font-size: 150%;
+}
+#Description h3
+{
+	font-size: 1.35em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1001px) and (max-width: 1100px)
+{
+
+#Description
+{
+	height: 610px;
+}
+#Description h4
+{
+	font-size: 175%;
+}
+#Description h3
+{
+	font-size: 1.45em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1101px) and (max-width: 1050px)
+{
+
+#Description
+{
+	height: 670px;
+}
+#Description h4
+{
+	font-size: 195%;
+}
+#Description h3
+{
+	font-size: 1.55em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1051px) and (max-width: 1100px)
+{
+
+#Description
+{
+	height: 670px;
+}
+#Description h4
+{
+	font-size: 200%;
+}
+#Description h3
+{
+	font-size: 1.5em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1101px) and (max-width: 1200px)
+{
+
+#Description
+{
+	height: 700px;
+}
+#Description h4
+{
+	font-size: 210%;
+}
+#Description h3
+{
+	font-size: 1.56em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1201px) and (max-width: 1250px)
+{
+
+#Description
+{
+	height: 750px;
+}
+#Description h4
+{
+	font-size: 210%;
+}
+#Description h3
+{
+	font-size: 1.76em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1251px) and (max-width: 1300px)
+{
+
+#Description
+{
+	height: 780px;
+}
+#Description h4
+{
+	font-size: 220%;
+}
+#Description h3
+{
+	font-size: 1.78em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1301px) and (max-width: 1400px)
+{
+
+#Description
+{
+	height: 800px;
+}
+#Description h4
+{
+	font-size: 230%;
+}
+#Description h3
+{
+	font-size: 1.83em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1401px) and (max-width: 1500px)
+{
+
+#Description
+{
+	height: 860px;
+}
+#Description h4
+{
+	font-size: 235%;
+}
+#Description h3
+{
+	font-size: 2em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1501px) and (max-width: 1600px)
+{
+
+#Description
+{
+	height: 930px;
+}
+#Description h4
+{
+	font-size: 250%;
+}
+#Description h3
+{
+	font-size: 2.2em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1551px) and (max-width: 1600px)
+{
+
+#Description
+{
+	height: 1000px;
+}
+#Description h4
+{
+	font-size: 290%;
+}
+#Description h3
+{
+	font-size: 2.23em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+@media all and (min-width: 1601px) and (max-width: 2000px)
+{
+
+#Description
+{
+	height: 1100px;
+}
+#Description h4
+{
+	font-size: 300%;
+}
+#Description h3
+{
+	font-size: 2.3em;
+	text-align: left;
+	line-height: 1.5em;
+	word-spacing: 2px;
+}
+}
+#About
+{
+	height: 250px;
+	background: url("Фото/Свечи.jpg") no-repeat;
+	background-size: 100%;
+}
+#About h1
+{
+	font-size: 1em;
+	text-align: center;
+	padding-top: 2%;
+}
+#About h1:hover
+{
+	cursor: pointer;
+	color: red;
+	opacity: 0.8;
+}
+#About img
+{
+	width: 20%;
+	float: left;
+	border-radius: 15px;
+	padding-right: 10px;
+}
+#About img:hover
+{
+	opacity: 0.7;
+	cursor: pointer;
+}
+#About-Info
+{
+
+	width: 97%;
+	text-align: left;
+	margin-left: 2%;
+	font-size: 0.5em;
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+}
+
+@media all and (min-width: 450px) and (max-width: 500px)
+{
+	
+	#About h1
+	{
+		font-size: 1.2em;
+	}
+	#About
+	{
+		height: 280px;
+	}
+	#About-Info
+	{
+		font-size: 0.6em;
+		word-spacing: 1px;
+	}
+}
+@media all and (min-width: 501px) and (max-width: 550px)
+{
+	#About h1
+	{
+		font-size: 1.5em;
+	}
+	#About
+	{
+		height: 320px;
+	}
+	#About-Info
+	{
+		font-size: 0.72em;
+		word-spacing: 2px;
+	}
+
+}
+@media all and (min-width: 551px) and (max-width: 600px)
+{
+
+	#About h1
+	{
+		font-size: 1.7em;
+	}
+	#About 
+	{
+		height: 380px;
+	}
+	#About-Info
+	{
+		font-size: 0.8em;
+	}
+}
+@media all and (min-width: 601px) and (max-width: 650px)
+{
+	#About h1
+	{
+		font-size: 2em;
+	}
+	#About
+	{
+		height: 400px;
+	}
+	#About-Info
+	{
+		font-size: 0.85em;
+	}
+}
+@media all and (min-width: 651px) and (max-width: 700px)
+{
+	#About h1
+	{
+		font-size: 2.2em;
+	}
+	#About
+	{
+		height: 430px;
+	}
+	#About-Info
+	{
+		font-size: 0.90em;
+	}
+}
+@media all and (min-width: 701px) and (max-width: 750px)
+{
+	#About h1
+	{
+		font-size: 2.5em;
+	}
+	#About
+	{
+		height: 460px;
+	}
+	#About-Info
+	{
+		font-size: 1em;
+	}
+}
+@media all and (min-width: 751px) and (max-width: 800px)
+{
+	#About h1
+	{
+		font-size: 2.5em;
+	}
+	#About
+	{
+		height: 480px;
+	}
+	#About-Info
+	{
+		font-size: 1em;
+	}
+}
+@media all and (min-width: 801px) and (max-width: 870px)
+{
+	#About h1
+	{
+		font-size: 2.5em;
+	}
+	#About
+	{
+		height: 520px;
+	}
+	#About-Info
+	{
+		font-size: 1.15em;
+	}
+}
+@media all and (min-width: 871px) and (max-width: 900px)
+{
+	#About h1
+	{
+		font-size: 1.5em;
+	}
+	#About
+	{
+		height: 550px;
+	}
+	#About-Info
+	{
+		font-size: 1.2em;
+	}
+}
+@media all and (min-width: 901px) and (max-width: 970px)
+{
+	#About h1
+	{
+		font-size: 2.5em;
+	}
+	#About
+	{
+		height: 580px;
+	}
+	#About-Info
+	{
+		font-size: 1.30em;
+	}
+}
+@media all and (min-width: 971px) and (max-width: 1050px)
+{
+	#About h1
+	{
+		font-size: 2.5em;
+	}
+	#About
+	{
+		height: 640px;
+	}
+	#About-Info
+	{
+		font-size: 1.4em;
+	}
+}
+@media all and (min-width: 1051px) and (max-width: 1100px)
+{
+	#About h1
+	{
+		font-size: 2.8em;
+	}
+	#About
+	{
+		height: 700px;
+	}
+	#About-Info
+	{
+		font-size: 1.5em;
+	}
+}
+@media all and (min-width: 1101px) and (max-width: 1170px)
+{
+	#About h1
+	{
+		font-size: 2.8em;
+	}
+	#About
+	{
+		height: 750px;
+	}
+	#About-Info
+	{
+		font-size: 1.7em;
+	}
+}
+@media all and (min-width: 1171px) and (max-width: 1400px)
+{
+	#About h1
+	{
+		font-size: 2.8em;
+	}
+	#About
+	{
+		height: 800px;
+	}
+	#About-Info
+	{
+		font-size: 1.8em;
+	}
+}
+@media all and (min-width: 1401px) and (max-width: 1500px)
+{
+	#About h1
+	{
+		font-size: 2.8em;
+	}
+	#About
+	{
+		height: 870px;
+	}
+	#About-Info
+	{
+		font-size: 2em;
+	}
+}
+@media all and (min-width: 1501px) and (max-width: 1900px)
+{
+	#About h1
+	{
+		font-size: 3em;
+	}
+	#About
+	{
+		height: 950px;
+	}
+	#About-Info
+	{
+		font-size: 2.2em;
+	}
+}
+@media all and (min-width: 1951px) and (max-width: 2100px)
+{
+	#About h1
+	{
+		font-size: 3em;
+	}
+	#About
+	{
+		height: 1000px;
+	}
+	#About-Info
+	{
+		font-size: 2.5em;
+	}
+}
+@media all and (min-width: 2101px) and (max-width: 2500px)
+{
+	#About h1
+	{
+		font-size: 3.1em;
+	}
+	#About
+	{
+		height: 1200px;
+	}
+	#About-Info
+	{
+		font-size: 2.7em;
+	}
+}
